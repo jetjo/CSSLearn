@@ -1,0 +1,27 @@
+<html>
+<head>
+</head>
+<style>
+/*选择id为app，并且class包含div1的元素*/
+#app.div1 {
+    background: #789;
+}
+</style>
+<style>
+/*选择祖先元素的id为app，并且class包含div1的元素*/
+#app .div1 {
+    background: #987;
+}
+</style>
+<body>
+
+<div id="app" class="div1" style="border-width:1px;border-color:#0f0;border-style:dashed; height:100px;width:100px;">
+
+<div class="div1" style="border-width:1px;border-color:#f00;border-style:dashed; height:50px;width:50px;">
+
+</div>
+
+</div>
+
+</body>
+</html>
